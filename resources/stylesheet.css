@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    background-color: #FAFAFA;
+}
+
+.cbm_wrap {
+    background: #fff;
+    padding:20px;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.cbm_wrap .temp_font {
+    font-size: 20px;
+}
+
+.cbm_wrap img {
+    transition: all 500ms;
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari */
+    transform: scale(1);
+}
+.border-box {
+    border-radius: 8px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.border-box:hover img{
+    transition: all 500ms;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari */
+    transform: scale(1.2);
+}
+
+.periodo {
+    margin-bottom: 10px;
+}
+.box-hoje img {
+    width: 80px;
+    margin: 10px;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.border-box .balao {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: #fff;
+    margin-left: -15px;
+    z-index: 10;
+    border-radius: 5px;
+}
+#chartContainer {
+    height: 370px;
+    max-width: 920px;
+    margin: 0px auto;
+}
+
+#button {
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 991px){
+    .border-box .balao {
+        position: relative;
+        margin-left: 0px;
+    }
+}
